@@ -1,3 +1,5 @@
+set shell := ["powershell.exe", "-c"]
+
 # coverage related
 cov := "--cov=alive_progress --cov-branch --cov-report=term-missing"
 
@@ -27,7 +29,7 @@ release: build && tag
 tag:
     #!/usr/bin/env zsh
     tag=$(python -c 'import alive_progress; print("v" + alive_progress.__version__)')
-    git tag -a $tag -m "Details: https://github.com/rsalmei/alive-progress/blob/main/CHANGELOG.md"
+    git tag -a $tag -m "Details: https://github.com/lebrunthibault/alive-progress/blob/main/CHANGELOG.md"
     git push origin $tag
 
 test:

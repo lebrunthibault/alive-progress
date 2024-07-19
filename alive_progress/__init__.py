@@ -1,10 +1,10 @@
 from .core.configuration import config_handler
 from .core.progress import alive_bar, alive_it
 
-VERSION = (3, 1, 5)
+VERSION = (3, 1, 6)
 
-__author__ = 'Rogério Sampaio de Almeida'
-__email__ = 'rsalmei@gmail.com'
+__author__ = 'Thibault Lebrun'
+__email__ = 'thibaultlebrun@live.fr'
 __version__ = '.'.join(map(str, VERSION))
 __description__ = 'A new kind of Progress Bar, with real-time throughput, ' \
                   'ETA, and very cool animations!'
