@@ -11,12 +11,12 @@ def get_readme():
 
 
 setup(
-    name='alive-progress',
+    name='lebrunthibault-alive-progress',
     version=alive_progress.__version__,
     description=alive_progress.__description__,
     long_description=get_readme(),
     long_description_content_type='text/markdown',
-    url='https://github.com/rsalmei/alive-progress',
+    url='https://github.com/lebrunthibault/alive-progress',
     author=alive_progress.__author__,
     author_email=alive_progress.__email__,
     license='MIT',

@@ -279,7 +279,7 @@ def __alive_bar(config, total=None, *, calibrate=None,
         return f'{warning}{monitor_run(f, None)}'
 
     def elapsed_run(f):
-        return f.format(elapsed=elapsed_text(run.elapsed, False))
+        return f.format(elapsed=elapsed_text(run.elapsed, True))
 
     def elapsed_end(f):
         return f.format(elapsed=elapsed_text(run.elapsed, True))
